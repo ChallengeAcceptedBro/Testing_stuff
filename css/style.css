@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'Lalala';
+	src: url('../fonts/Lalala.eot'); 
+	src: url('../fonts/Lalala.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/Lalala.woff2') format('woff2'), 
+    url('../fonts/Lalala.woff') format('woff'), 
+    url('../fonts/Lalala.ttf')  format('truetype'), 
+    url('../fonts/Lalala.svg#Lalala') format('svg');
+}
+* {
+	font-family: 'Lalala', arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+
+}
+div {
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+.font-arial {
+	font-family: arial, sans-serif;
+}
+header {
+	color: #fff;
+	background: url(../img/splash1.jpg) 100% 100%/cover no-repeat;
+}
+.header-flex {
+	display: flex;
+	padding-top: 55px;
+	justify-content: space-between;
+}
+.logo, .contacts {
+	height: 20px;
+}
+.navigation {
+	display: flex;
+	height: 15px;
+	justify-content: space-between;
+}
+nav {
+	height: 15px;
+	width: 33%;
+}
+.navigation__link, .contacts__link {
+	text-decoration: none;
+	color: #fff;
+
+}
+.navigation__item:hover, .contacts:hover {
+	background: #9a6d59;
+	height: 20px;
+	border-bottom: 1px dotted #fff;
+}
+.head-title {
+	text-align: center;
+	margin-top: 300px;
+}
+.head-title:after {
+	content: '';
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 305px auto 0px auto;
+	background: url(../img/arrow.png) no-repeat;
+	padding-bottom: 45px;
+}
+h1 {
+	font-size: 49px;
+	background: linear-gradient(7deg, #cfb237 44%, #5e91c9 67%);
+    -webkit-background-clip: text;
+    -o-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    color: transparent;
+}
+.head-title p {
+	font-size: 29px;
+	font-style: italic;
+}
+.bridge {
+	text-align: center;
+	background:
+	linear-gradient(to bottom, #171f22, pink);
+	height: 15px;
+
+}
+#about {
+	background: url(../img/leaves11.jpg) center 100%/cover no-repeat;
+	font-size: 15px;
+	color: #a87427;
+}
+.about-me {
+	color: #a7a76a;
+	margin: 65px 10px 80px 0px;
+	font-size: 37px;
+}
+.about {
+	display: flex;
+	justify-content: space-between;
+}
+.about-background, .about-advantages {
+	width: 47%;
+}
+.about h3 {
+	margin-bottom: 10px;
+}
+.about-advantages__list {
+	display: flex;
+	justify-content: space-between;
+}
+/* см 68 html
+.about-advantages__list_item {
+	position: relative;
+	width: 103px;
+}
+.about-advantages__list_item span {
+	position: absolute;
+	left: 42%;
+	top: 42%;
+	font-size: 20px;
+}*/
+.about-advantages__list_icon {
+	width: 103px;
+	height: 103px;
+	background: url(../img/icon.png);
+	text-align: center;
+	line-height: 103px;
+}
+.about-advantages__list_text {
+	text-align: center;
+	margin-top: 30px;
+}
