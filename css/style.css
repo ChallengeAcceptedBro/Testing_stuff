@@ -83,12 +83,11 @@ h1 {
 	font-size: 29px;
 	font-style: italic;
 }
-.bridge {
+.first-bridge {
 	text-align: center;
 	background:
 	linear-gradient(to bottom, #171f22, pink);
 	height: 15px;
-
 }
 #about {
 	background: url(../img/leaves11.jpg) center 100%/cover no-repeat;
@@ -96,7 +95,7 @@ h1 {
 	color: #3ed6e1;
 }
 .about-me {
-	color: #a7a76a;
+	color: #cfb237;
 	margin: 65px 10px 80px 0px;
 	font-size: 37px;
 }
@@ -158,5 +157,29 @@ h1 {
 .awesome-icon {
 	font-size: 3em;
 	color: #9ca0d7;
+}
+.second-bridge {
+	text-align: center;
+	background:
+	linear-gradient(to bottom, #171f22, #fff);
+	height: 15px;
+}
+.my-skills {
+	color: #6d677e;
+	margin: 65px 10px 80px 0px;
+	font-size: 37px;
+	text-align: center;
+}
+/*.skill-list {
+	display: flex;
+	justify-content: space-around;
 
+}*/
+.skill-list__item {
+	color: #b76d20;
+	height: 3rem;
+	/*width: 4rem;*/
+	border: solid 1px;
+	text-align: center;
+	line-height: 3rem;
 }
